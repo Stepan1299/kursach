@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=yes">
+    <meta name="description" content="NexForge Software - Разработка инновационного программного обеспечения. Web, Mobile, AI/ML решения для вашего бизнеса.">
+    <meta name="keywords" content="разработка ПО, web-разработка, мобильные приложения, AI, ML, DevOps">
+    <meta name="theme-color" content="#6366f1">
+    <title>NexForge Software - Разработка программного обеспечения</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">NexForge</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Главная</a></li>
+                <li><a href="#services" class="nav-link">Услуги</a></li>
+                <li><a href="#portfolio" class="nav-link">Портфолио</a></li>
+                <li><a href="#about" class="nav-link">О нас</a></li>
+                <li><a href="#contact" class="nav-link">Контакты</a></li>
+            </ul>
+            <button class="mobile-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <div class="progress-bar" id="progressBar"></div>
+    </nav>
+
+    <!-- Home Page -->
+    <section id="home" class="page active">
+        <div class="hero">
+            <div class="hero-background"></div>
+            <div class="hero-content">
+                <h1>Создаем <span class="gradient-text">инновационное</span> программное обеспечение</h1>
+                <p>NexForge Software - ваш надежный партнер в мире цифровых технологий. Разрабатываем передовые решения для бизнеса любого масштаба.</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary">Начать проект</a>
+                    <a href="#services" class="btn btn-secondary">Наши услуги</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Features -->
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Быстрая разработка</h3>
+                    <p>Agile-методология и современный стек технологий для быстрого достижения результата</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Точность исполнения</h3>
+                    <p>Тщательное планирование и контроль качества на каждом этапе разработки</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3>Масштабируемость</h3>
+                    <p>Архитектура решений, готовых к росту вашего бизнеса</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Безопасность</h3>
+                    <p>Защита данных и соответствие международным стандартам безопасности</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Page -->
+    <section id="services" class="page">
+        <div class="container">
+            <h2 class="section-title">Наши услуги</h2>
+            <p class="section-subtitle">Полный спектр услуг по разработке программного обеспечения</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>Web-разработка</h3>
+                    <p>Создание современных веб-приложений с использованием React, Vue.js, Angular и других передовых технологий. Адаптивный дизайн и высокая производительность.</p>
+                    <ul class="service-list">
+                        <li>Single Page Applications (SPA)</li>
+                        <li>Progressive Web Apps (PWA)</li>
+                        <li>E-commerce платформы</li>
+                        <li>Корпоративные порталы</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Mobile-разработка</h3>
+                    <p>Нативные и кроссплатформенные мобильные приложения для iOS и Android с безупречным UX/UI дизайном.</p>
+                    <ul class="service-list">
+                        <li>React Native / Flutter</li>
+                        <li>Нативная разработка</li>
+                        <li>Интеграция с API</li>
+                        <li>Публикация в App Store / Google Play</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">⚙️</div>
+                    <h3>Backend-разработка</h3>
+                    <p>Надежные серверные решения на Node.js, Python, Java и других современных технологиях с микросервисной архитектурой.</p>
+                    <ul class="service-list">
+                        <li>RESTful / GraphQL API</li>
+                        <li>Микросервисы</li>
+                        <li>Интеграция систем</li>
+                        <li>Оптимизация производительности</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🤖</div>
+                    <h3>AI/ML решения</h3>
+                    <p>Внедрение искусственного интеллекта и машинного обучения для автоматизации бизнес-процессов и анализа данных.</p>
+                    <ul class="service-list">
+                        <li>Анализ данных</li>
+                        <li>Компьютерное зрение</li>
+                        <li>NLP обработка текста</li>
+                        <li>Предиктивная аналитика</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">☁️</div>
+                    <h3>Cloud & DevOps</h3>
+                    <p>Настройка облачной инфраструктуры, CI/CD пайплайнов и автоматизация процессов развертывания.</p>
+                    <ul class="service-list">
+                        <li>AWS / Azure / Google Cloud</li>
+                        <li>Docker / Kubernetes</li>
+                        <li>CI/CD автоматизация</li>
+                        <li>Мониторинг и логирование</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>UI/UX дизайн</h3>
+                    <p>Создание интуитивных и привлекательных интерфейсов с фокусом на пользовательский опыт.</p>
+                    <ul class="service-list">
+                        <li>Прототипирование</li>
+                        <li>Дизайн-системы</li>
+                        <li>Юзабилити-тестирование</li>
+                        <li>Адаптивный дизайн</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Page -->
+    <section id="portfolio" class="page">
+        <div class="container">
+            <h2 class="section-title">Наше портфолио</h2>
+            <p class="section-subtitle">Проекты, которыми мы гордимся</p>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">🏦</div>
+                    <div class="portfolio-content">
+                        <h3>FinTech Platform</h3>
+                        <p>Комплексная платформа для управления финансами с AI-аналитикой и автоматизацией инвестиций</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">ML</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">🛒</div>
+                    <div class="portfolio-content">
+                        <h3>E-Commerce Marketplace</h3>
+                        <p>Маркетплейс с поддержкой 100k+ товаров, интеграцией платежных систем и real-time аналитикой</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">Redis</span>
+                            <span class="tag">AWS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">🏥</div>
+                    <div class="portfolio-content">
+                        <h3>Healthcare Management System</h3>
+                        <p>Система управления медицинскими записями с телемедициной и интеграцией медицинского оборудования</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Angular</span>
+                            <span class="tag">Java</span>
+                            <span class="tag">MongoDB</span>
+                            <span class="tag">FHIR</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">📊</div>
+                    <div class="portfolio-content">
+                        <h3>Business Intelligence Dashboard</h3>
+                        <p>Аналитическая платформа с визуализацией данных в реальном времени и кастомными отчетами</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">D3.js</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">BigQuery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">🎓</div>
+                    <div class="portfolio-content">
+                        <h3>EdTech Learning Platform</h3>
+                        <p>Образовательная платформа с интерактивными курсами, видео-конференциями и AI-помощником</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Next.js</span>
+                            <span class="tag">WebRTC</span>
+                            <span class="tag">GPT-4</span>
+                            <span class="tag">Docker</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">🚗</div>
+                    <div class="portfolio-content">
+                        <h3>IoT Fleet Management</h3>
+                        <p>Система мониторинга и управления автопарком с GPS-трекингом и предиктивным обслуживанием</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Flutter</span>
+                            <span class="tag">MQTT</span>
+                            <span class="tag">TimescaleDB</span>
+                            <span class="tag">K8s</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Page -->
+    <section id="about" class="page">
+        <div class="container">
+            <h2 class="section-title">О нас</h2>
+            <p class="section-subtitle">Мы команда профессионалов, создающая цифровое будущее</p>
+            
+            <div class="about-content">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="150">0</div>
+                        <div class="stat-label">Проектов завершено</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="50">0</div>
+                        <div class="stat-label">Довольных клиентов</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="8">0</div>
+                        <div class="stat-label">Лет на рынке</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="30">0</div>
+                        <div class="stat-label">Экспертов в команде</div>
+                    </div>
+                </div>
+
+                <div class="team-section">
+                    <h3 class="subsection-title">Наша команда</h3>
+                    <div class="team-grid">
+                        <div class="team-card">
+                            <div class="team-avatar">👨‍💻</div>
+                            <h4>Алексей Иванов</h4>
+                            <p class="team-role">CEO & Founder</p>
+                            <p class="team-description">15 лет опыта в разработке ПО. Выпускник MIT, ex-Google Senior Engineer.</p>
+                        </div>
+                        <div class="team-card">
+                            <div class="team-avatar">👩‍💼</div>
+                            <h4>Мария Петрова</h4>
+                            <p class="team-role">CTO</p>
+                            <p class="team-description">Эксперт в облачных технологиях и DevOps. AWS Certified Solutions Architect.</p>
+                        </div>
+                        <div class="team-card">
+                            <div class="team-avatar">👨‍🎨</div>
+                            <h4>Дмитрий Сидоров</h4>
+                            <p class="team-role">Lead Designer</p>
+                            <p class="team-description">Создатель дизайна для топ-брендов. Awwwards Winner 2023.</p>
+                        </div>
+                        <div class="team-card">
+                            <div class="team-avatar">👩‍💻</div>
+                            <h4>Анна Козлова</h4>
+                            <p class="team-role">AI/ML Lead</p>
+                            <p class="team-description">PhD в машинном обучении. Разработчик 10+ AI-решений для enterprise.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="technologies-section">
+                    <h3 class="subsection-title">Технологии, с которыми мы работаем</h3>
+                    <div class="tech-categories">
+                        <div class="tech-category">
+                            <h4>Frontend</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Vue.js</span>
+                                <span class="tech-tag">Angular</span>
+                                <span class="tech-tag">Next.js</span>
+                                <span class="tech-tag">TypeScript</span>
+                                <span class="tech-tag">Tailwind CSS</span>
+                            </div>
+                        </div>
+                        <div class="tech-category">
+                            <h4>Backend</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Java</span>
+                                <span class="tech-tag">Go</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                                <span class="tech-tag">MongoDB</span>
+                            </div>
+                        </div>
+                        <div class="tech-category">
+                            <h4>Mobile</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">React Native</span>
+                                <span class="tech-tag">Flutter</span>
+                                <span class="tech-tag">Swift</span>
+                                <span class="tech-tag">Kotlin</span>
+                            </div>
+                        </div>
+                        <div class="tech-category">
+                            <h4>Cloud & DevOps</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">AWS</span>
+                                <span class="tech-tag">Azure</span>
+                                <span class="tech-tag">Docker</span>
+                                <span class="tech-tag">Kubernetes</span>
+                                <span class="tech-tag">CI/CD</span>
+                                <span class="tech-tag">Terraform</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Page -->
+    <section id="contact" class="page">
+        <div class="container">
+            <h2 class="section-title">Свяжитесь с нами</h2>
+            <p class="section-subtitle">Готовы обсудить ваш проект? Мы всегда на связи!</p>
+            
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>NexForge Software</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h4>Адрес</h4>
+                            <p>г. Москва, ул. Инновационная, 42<br>Бизнес-центр "Digital Hub"</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@nexforge.dev<br>sales@nexforge.dev</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <h4>Телефон</h4>
+                            <p>+7 (495) 123-45-67<br>+7 (800) 555-35-35</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">⏰</div>
+                        <div>
+                            <h4>Время работы</h4>
+                            <p>Пн-Пт: 9:00 - 18:00<br>Сб-Вс: Выходной</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm" novalidate>
+                    <div class="form-group">
+                        <label for="name">Имя *</label>
+                        <input type="text" id="name" name="name" required minlength="2" maxlength="50">
+                        <span class="error-message"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                        <span class="error-message"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Телефон</label>
+                        <input type="tel" id="phone" name="phone" pattern="[+]?[0-9\s\-\(\)]{10,}">
+                        <span class="error-message"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="service">Интересующая услуга *</label>
+                        <select id="service" name="service" required>
+                            <option value="">Выберите услугу</option>
+                            <option value="web">Web-разработка</option>
+                            <option value="mobile">Mobile-разработка</option>
+                            <option value="backend">Backend-разработка</option>
+                            <option value="ai">AI/ML решения</option>
+                            <option value="cloud">Cloud & DevOps</option>
+                            <option value="design">UI/UX дизайн</option>
+                        </select>
+                        <span class="error-message"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Сообщение *</label>
+                        <textarea id="message" name="message" rows="5" required minlength="10" maxlength="1000"></textarea>
+                        <span class="error-message"></span>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Отправить заявку</button>
+                </form>
+            </div>
+
+            <!-- FAQ Section -->
+            <div class="faq-section">
+                <h3 class="subsection-title">Часто задаваемые вопросы</h3>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Сколько времени занимает разработка проекта?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Сроки зависят от сложности проекта. Простой лендинг — 2-3 недели, сложное веб-приложение — 3-6 месяцев. Мы всегда даем реалистичные оценки на этапе планирования.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Какова стоимость разработки?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Стоимость рассчитывается индивидуально исходя из требований проекта. Средняя стоимость: лендинг от 150 000₽, корпоративный сайт от 400 000₽, мобильное приложение от 800 000₽.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Предоставляете ли вы поддержку после запуска?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Да! Мы предлагаем различные пакеты технической поддержки: от базового (исправление критических ошибок) до расширенного (доработки, оптимизация, консультации).</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Работаете ли вы с международными клиентами?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Безусловно! У нас есть опыт работы с клиентами из США, Европы и Азии. Наша команда свободно владеет английским языком.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Какая методология разработки используется?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Мы работаем по Agile/Scrum методологии с двухнедельными спринтами. Вы получаете регулярные обновления, можете видеть прогресс и вносить корректировки на любом этапе.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        ↑
+    </button>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="logo">NexForge</h3>
+                    <p>Инновационные решения для цифрового будущего</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Навигация</h4>
+                    <ul>
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#services">Услуги</a></li>
+                        <li><a href="#portfolio">Портфолио</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Услуги</h4>
+                    <ul>
+                        <li><a href="#services">Web-разработка</a></li>
+                        <li><a href="#services">Mobile-разработка</a></li>
+                        <li><a href="#services">Backend</a></li>
+                        <li><a href="#services">AI/ML</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Социальные сети</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="GitHub">GitHub</a>
+                        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                        <a href="#" aria-label="Telegram">Telegram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 NexForge Software. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
